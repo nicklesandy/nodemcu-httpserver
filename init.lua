@@ -12,9 +12,9 @@ wifiConfig.accessPointConfig.ssid = "ESP-"..node.chipid()   -- Name of the SSID 
 wifiConfig.accessPointConfig.pwd = "ESP-"..node.chipid()    -- WiFi password - at least 8 characters
 
 wifiConfig.accessPointIpConfig = {}
-wifiConfig.accessPointIpConfig.ip = "192.168.111.1"
+wifiConfig.accessPointIpConfig.ip = "192.168.0.1"
 wifiConfig.accessPointIpConfig.netmask = "255.255.255.0"
-wifiConfig.accessPointIpConfig.gateway = "192.168.111.1"
+wifiConfig.accessPointIpConfig.gateway = "192.168.0.1"
 
 wifiConfig.stationPointConfig = {}
 wifiConfig.stationPointConfig.ssid = "Internet"        -- Name of the WiFi network you want to join
